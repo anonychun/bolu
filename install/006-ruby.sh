@@ -30,7 +30,11 @@ sudo apt install -y \
   libvips \
   libffi-dev \
   build-essential \
-  pkg-config
+  pkg-config \
+  bison \
+  git \
+  libreadline-dev \
+  tzdata
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ~/.rbenv/bin/rbenv init
